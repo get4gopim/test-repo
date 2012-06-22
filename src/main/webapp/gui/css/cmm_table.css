@@ -1,0 +1,249 @@
+/* 
+    Document   : cmm.css
+    Created on : September 28, 2007, 2:52 PM
+    Author     : gopimani
+    Description:
+        Purpose of the stylesheet follows.
+
+        1. General HTML Elements style overriding.
+        2. CMM 2.6 Themes changed bastableColumnsed on the color code.
+*/
+
+
+/* ---------------------  General HTML tags OVERRIDE --------------------  */
+
+root { 
+    display: block;
+}
+
+/* Need to set body margin and padding to get consistency between browsers. */
+
+body {
+  font-family: verdana, sans-serif;
+} 
+
+
+
+
+/* 
+        -------------------------------------------------------------------------
+            TABLE Tags General <table> <tr> <td> </td> </tr> </table>
+        -------------------------------------------------------------------------
+*/
+
+.tab         /* TABLE OVERRIDE */
+{ 
+    background-color: #FAFAFA;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
+    border: 1px #666666 solid;
+    border-collapse: collapse;
+    border-spacing: 0px; 
+
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+    font-size: 11px;
+}
+
+.pickme         /* TABLE OVERRIDE */
+{ 
+    background-color: #FAFAFA;
+
+    border: 1px #CCCCCC solid;
+    border-collapse: collapse;
+    border-spacing: 0px; 
+
+}
+
+.ext_tab         /* TABLE OVERRIDE */
+{   
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+	font-size: 11px;   
+}
+
+.tableHeader       /* HEADING #DDDEEC*/
+{ 
+    background-color: #d4d4e0; 
+    margin: 0px 0px 0px 0px;
+
+    border-bottom: 0px solid #AAAAAA;
+    border-left: 0px solid #AAAAAA;
+
+    text-align: left;
+    text-indent: 6px;
+
+    font-weight: bold;
+    font-size: 12px;
+    
+  border-top-color: #9292d1;
+  border-bottom-color: #9292d1;
+  border-left-color: #9292d1;
+  border-right-color: #9292d1;
+  border-top-color: #d4d4e0;
+  border-bottom-color: #d4d4e0;
+  border-left-color: #d4d4e0;
+  border-right-color: #d4d4e0;
+}
+
+.tableHead       /* HEADING with blue background and center aligned text*/
+{ 
+    background-color: #BBDEEC; 
+    margin: 0px 0px 0px 0px;
+
+    border-bottom: 0px solid #AAAAAA;
+    border-left: 0px solid #AAAAAA;
+
+    text-align: center;
+    text-indent: 6px;
+
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.tableNor   /* TABLE Row Alternate BOLD | Noraml mode */
+{ 
+
+    background-color: #FBFBFB;
+    color: #404040;
+
+    border-bottom: 1px solid #6699CC;
+    border-left: 1px solid #6699CC;
+
+    text-align: left;
+    text-indent: 5px;
+
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+    font-weight: normal;
+    font-size: 12px;
+}
+
+
+.tab_noborder         /* TABLE OVERRIDE */
+{ 
+    width: 98%;
+}
+
+.contentRight  /* TABLE Row RIGHT side alignment */
+{ 
+    border-bottom: 0px solid #6699CC;
+    border-left: 0px solid #6699CC;
+
+    padding-right: 10px;
+
+    text-align: right;
+    text-indent: 12px;
+
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.even	{background:#E8E8E8; text-indent: 0px;}
+.evenBold	{background:#E8E8E8; text-indent: 0px; font-weight:bold;}
+.odd	{background:#FBFBFB; text-indent: 0px;}
+.oddBold	{background:#FBFBFB; text-indent: 0px; font-weight:bold;}
+.red	{background:#CC3333; color:#0066FF; text-indent: 0px;}
+.redBold	{background:#CC3333; color:#0066FF; text-indent: 0px; font-weight:bold;}
+
+.highlight	{background:#CECCF4; text-indent: 0px;}   /* #666666 */
+.selected		{background:#666666; color:#FFFFFF; text-indent: 0px;}
+
+th  
+{ 
+    background-color: #EFEEF9;
+    color: #000000; 
+
+    text-align: center;
+    text-indent: 2px;
+
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+    font-weight: bold;
+    font-size: 11px;
+	
+    height: 20px;
+}
+
+td 
+{
+    text-indent: 2px;
+}
+
+
+
+/*
+tbody {
+    font-weight: normal;
+    font-size: 14px;
+}
+*/
+
+.innerb {height:110px; overflow:scroll;}
+
+.hide_his {visibility:hidden;}
+
+
+/* 
+        -------------------------------------------------------------------------
+            Input Fields Name And components STYLE
+        -------------------------------------------------------------------------
+*/
+
+.side_tags {
+        color: #000000;	
+
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+        padding-top: 0px;        
+	
+	text-decoration: none;
+        text-align: left;
+
+        /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+        font-size: 10px;
+        font-weight: bold;		
+}
+.side_components {
+	color: #000000;	
+
+        padding: 3px;
+
+	text-decoration: none;
+        text-align: left;
+
+        /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+        font-size: 10px;
+        font-weight: bold;
+}
+
+.tabledata {
+	color: #000000;	
+
+	text-decoration: none;
+        text-align: left;        
+        font-size: 11px;
+        font-weight: normal;
+}
+
+.cuesContentTitle 
+{
+	height: 28px;
+	background-color: #6b7485;
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+	font-size: 12px;
+	font-weight: bold;
+	color:#FFFFFF;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	
+}

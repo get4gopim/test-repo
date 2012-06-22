@@ -1,0 +1,488 @@
+/* 
+    Document   : cmm.css
+    Created on : September 28, 2007, 2:52 PM
+    Author     : gopimani
+    Description:
+        Purpose of the stylesheet follows.
+
+        1. General HTML Elements style overriding.
+        2. CMM 2.6 Themes changed based on the color code.
+*/
+
+
+/* 
+        -------------------------------------------------------------------------
+            Navigation TAB   Ex. home -> main -> help -> search
+        -------------------------------------------------------------------------
+*/
+
+button {
+        cursor:hand;
+}
+
+.topshadow {
+                font-weight: normal; 
+                font-size: 11px;
+                color: #969ca3;
+                width: 98%; 
+                margin: 0px 10px 0px 10px;
+            }
+
+.tabs {
+    height: 30px; 
+    font-weight:bold; 
+    font-size:16px; 
+    background-color:#E2E4F3; 
+}
+
+.navi
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    
+    /* border: 1px solid #000000; */
+    background-color: #999999;
+
+    font-size: 9.0pt;
+    font-weight: bold;
+    
+
+    text-align: left;
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+}
+
+.domain
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+
+	
+	
+    font-size: 8pt;
+    font-weight: bold;
+
+    text-align: right;
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+}
+
+.action_box
+{
+    background-color: #FEFFD2;
+
+    margin-left: 6px;
+    margin-right: 6px;
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    border: 1px;
+    border-color: #CCCCCC;
+    border-style: solid;
+    
+    
+
+}
+
+.action_box_1
+{
+    background-color: #FEFFD2;
+
+    margin-left: 10px;
+    margin-right: 6px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    border: 1px;
+    border-color: #CCCCCC;
+    border-style: solid;
+    
+    
+
+}
+
+.action_box_heading
+{
+    color: #729F48;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    text-align: left;
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+}
+
+.action_box_info
+{
+    color: #000000;
+
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    font-size: 12px;
+    font-weight: normal;
+
+    text-align: left;
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+}
+
+.small_info 
+{
+	font-size: 10px;
+	font-weight: normal;
+	color: #CCCCCC;
+}
+
+/* 
+        -------------------------------------------------------------------------
+            Information on the Inputs table
+        -------------------------------------------------------------------------
+*/
+
+.info
+{
+    padding-left: 0px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+
+    border: 0px;
+    border-color: #000000;
+    border-style: double;
+
+    text-align: justify;    
+
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+}
+
+
+
+
+/* 
+    -------------------------------------------------------------------------  
+        Login page div style {Login shadow BOX style}
+    ------------------------------------------------------------------------- 
+*/
+
+.style1 {
+    width: 350px;
+    padding: 10px;
+
+    filter: shadow(color:black, strength:10, direction:135);
+}
+
+.style2 {
+    background-color: #DEE0DF;
+    padding: 10px;
+    border: 1px solid black;
+
+    width: 350px;
+    height: 100px;
+
+    text-align: left;
+    
+    font-size: 12px;
+}
+
+.loginHeader
+{ 
+    color: #404040;
+
+    border-bottom: 0px solid #6699CC;
+    border-left: 0px solid #6699CC;
+
+    text-align: Left;
+    text-indent: 6px;
+
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+/* 
+        -------------------------------------------------------------------------
+            Button STYLE OVERRIDE
+        -------------------------------------------------------------------------
+*/
+
+.btn {
+    background-color: #EFEFEF;
+    color: #050;
+
+    outline: none;
+    border: 1px #007651 outset;
+
+    width: 100px;
+    height: 20px;
+
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+    font-size: 10px;
+    font-weight: bold;
+
+    cursor: hand;
+    /* background: transparent url('button-design.gif') no-repeat scroll top right; */
+}
+
+.btn:hover {
+	background-color: #FFFFFF;
+}
+
+.btn_link {
+    background-color: #FFFFFF; 
+    color: #050;
+
+    outline: none;
+    border: 0px;
+    
+    height: 20px;
+
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+    font-size: 12px;
+    font-weight: bold;
+
+
+	text-align: inherit;
+	text-decoration: underline;
+
+    cursor: hand;
+    /* background: transparent url('button-design.gif') no-repeat scroll top right; */
+}
+
+.btn_link:hover {
+	text-decoration: underline;
+}
+
+
+.small_info 
+{
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+}
+
+
+.cuesContentTitle 
+{
+	height: 28px;
+	background-color: #6b7485;
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+	font-size: 12px;
+	font-weight: bold;
+	color:#FFFFFF;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+.NaviBar2 
+{
+	height: 28px;
+	background-color: #DDDDDD;
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+	font-size: 10px;
+	font-weight: normal;
+	color:#000000;
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-top: 0px;
+	
+}
+
+
+.test {
+	background-color:#FDFFE6;
+}
+
+.error {
+    color: red;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.report_outline {
+margin: 0px 0px 0px 15px; 
+border:0px #000000; 
+padding: 0px 0px 0px 0px;
+visibility: visible; 
+}
+
+.report_outline_yui {
+margin: 0px 0px 0px 15px; 
+border:1px #000000 solid; 
+padding: 0px 0px 0px 0px; 
+visibility:none; 
+
+}
+
+.report_title {
+margin: 0px 0px 0px 15px; 
+border:0px #000000; 
+padding: 0px 0px 0px 0px; 
+
+font-size: 14px;
+/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+font-weight: bold;
+}
+
+.report_view {
+border:0px solid;
+padding-left:10px; 
+padding-top:10px; 
+padding-bottom: 10px; 
+height: 40px; 
+background-color: #DFE9F9;
+
+/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+font-size: 12px;
+font-weight:bold; 
+
+
+}
+
+.report_content {
+border:0px solid;
+padding-left:10px; padding-top:10px; padding-bottom: 10px; height: 40px; 
+
+/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+font-weight: normal; 
+font-size: 4px;
+
+
+}
+
+.toptab {
+margin-left:10px;
+/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+font-weight: normal; 
+font-size: 14px;
+}
+
+.events, .devices, .trace {
+padding-left:10px; padding-top:10px; padding-bottom: 10px;
+
+/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+font-size: 11px;
+font-weight: normal; 
+
+}
+
+.content {
+	padding-left:15px; padding-top:3px; padding-bottom: 10px;
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.tablefilter {
+    padding-left:10px; 
+    border-left:1px solid #bdbdc2;
+    border-right:1px solid #bdbdc2;
+    border-bottom:1px solid #bdbdc2;    
+}
+
+.col_container {
+	/*width: 80px;*/
+	height: 17px;
+	border: 1px solid #000000;
+        text-align: center;
+        vertical-align:middle;
+}
+
+.content_area {
+	/* margin-left: 10px; */
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:10px; 
+	padding-bottom: 10px;
+}
+
+.ext_div {
+	/*padding-left:15px; padding-top:3px; padding-bottom: 10px;*/
+	
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.a_style {
+	text-decoration: none;
+	/*background-image:url (../images/gray/panel/white-top-bottom.gif);*/
+}
+
+
+
+/* ------- main css - main.jsp reference -------- */
+
+	.side_top {
+		padding: 5px 5px 5px 5px;
+		padding-right: 20px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;		
+	}
+	
+    .start {
+        background-image:url(../ajax2.0/examples/shared/icons/fam/done.gif);
+                
+    }
+    .domain {
+        background-image:url(../ajax2.0/examples/shared/icons/fam/folder_wrench.png);
+    }
+    .trace {
+        background-image:url(../ajax2.0/examples/shared/icons/fam/folder_go.png);
+    }
+    .polling {
+        background-image:url(../ajax2.0/examples/shared/icons/fam/cog.png);
+    }
+    .config {
+        background-image:url(../ajax2.0/examples/shared/icons/fam/cog_edit.png);
+    }
+    .topo {
+        background-image:url(../ajax2.0/examples/shared/icons/fam/connect.gif);
+    }
+    .diag {
+        background-image:url(../ajax2.0/examples/shared/icons/fam/application_go.png);
+    }
+    .admin {
+        background-image:url(../ajax2.0/examples/shared/icons/fam/user.png);
+    }
+    
+    /*  initialize tool bar icons */
+    .blist {
+	    background-image: url(../ajax2.0/examples/shared/icons/fam/list-items.gif) !important;
+    }    
+    
+    
+.title {
+	font-weight: bold; 
+        font-size: 9pt; 
+        color: #000000; 
+        font-family: verdana, sans-serif;
+}
+
+.status {
+	font-weight: normal;
+        font-size: 8pt;
+        color: #969ca3;
+        font-family: verdana, sans-serif;
+        text-decoration: none;
+}

@@ -1,0 +1,13 @@
+.bgImage {	
+  background-repeat: no-repeat;  
+  
+  background-image: url(../../gui/icons/login_zee_logo.jpg);
+}
+.textStyle {
+	font-size: 12px; 
+        color: #ffffff; 
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.errorStyle {
+	color: #ff0000;
+}
